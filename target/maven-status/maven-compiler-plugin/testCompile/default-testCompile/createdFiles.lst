@@ -1,1 +1,3 @@
+pages\TutorialNinjaPage.class
 runners\Runner.class
+stepDefinitions\TutorialsNinjaStepDefinitions.class
