@@ -1,3 +1,5 @@
 pages\TutorialNinjaPage.class
+stepDefinitions\GoogleTrendyoMorhipo.class
 runners\Runner.class
+pages\Google_Trendyol_Morhipo_Pages.class
 stepDefinitions\TutorialsNinjaStepDefinitions.class

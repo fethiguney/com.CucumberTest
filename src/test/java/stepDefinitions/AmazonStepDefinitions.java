@@ -52,4 +52,31 @@ public class AmazonStepDefinitions {
     public void sonuclarinIphoneIcerdiginiTestEder() {
         Assert.assertTrue(amazonPage.aramaSonucuElementi.getText().contains("iphone"));
     }
+
+    @Given("kullanici {string} sayfasina gider")
+    public void kullaniciSayfasinaGider(String url) {
+        Driver.getDriver().get(ConfigReader.getProperty(url));
+    }
+
+    @And("kullanici amazonda {string} icin arama yapar")
+    public void kullaniciAmazondaIcinAramaYapar(String kelime) {
+        amazonPage.aramaKutusu.sendKeys(kelime, Keys.ENTER);
+
+    }
+
+    @And("kullanici amazonda sonuclarin {string} icerdigini test eder")
+    public void kullaniciAmazondaSonuclarinIcerdiginiTestEder(String kelime) {
+       Assert.assertTrue( amazonPage.aramaSonucuElementi.getText().contains(kelime));
+    }
+
+    @Then("kullanici {int} saniye bekler")
+    public void kullaniciSaniyeBekler(int sure)  {
+        try {
+            Thread.sleep(sure*1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
 }
+
