@@ -5,3 +5,5 @@
       Then kullanici 2 saniye bekler
       And sayfa url "hepsiburada" icerdigini test eder
       Then sayfayi kapatir
+
+

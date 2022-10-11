@@ -1,5 +1,8 @@
 pages\TutorialNinjaPage.class
+utilities\ReusableMethods$1.class
 stepDefinitions\GoogleTrendyoMorhipo.class
+utilities\ReusableMethods.class
+stepDefinitions\AutomationExerciseStepDefinitions.class
 runners\Runner.class
 pages\Google_Trendyol_Morhipo_Pages.class
 stepDefinitions\TutorialsNinjaStepDefinitions.class

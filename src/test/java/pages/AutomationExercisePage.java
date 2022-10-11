@@ -30,4 +30,7 @@ public class AutomationExercisePage {
     @FindBy (xpath = "//h2[text()='Blue Top']")
     public WebElement blueTopText;
 
+    @FindBy (xpath = "//*[text()=' Test Cases']")
+    public WebElement testcasebutton;
+
 }
