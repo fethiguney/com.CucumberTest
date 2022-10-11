@@ -7,3 +7,11 @@
       Then sayfayi kapatir
 
 
+    Scenario: TC02 kullanici gecersiz bilgiler ile giris yapamaz
+      Given kullanici "bluerentalUrl" sayfasina gider
+      Then kullanici blueRentalCar sayfasinda Login yazisina tiklar
+      And kullanici gecersiz "blueRentInvalidEmail"  ve gecersiz "blueRentInvalidPassword" girer
+      And kullanici blueRentalCar sayfasinda Login butonuna basar
+      Then  kullanici gecersiz bilgiler ile blueRentalCar sayfasina giris yapilmadigini kontrol eder
+      Then sayfayi kapatir
+

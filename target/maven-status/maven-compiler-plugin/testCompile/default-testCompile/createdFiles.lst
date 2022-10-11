@@ -6,3 +6,4 @@ stepDefinitions\AutomationExerciseStepDefinitions.class
 runners\Runner.class
 pages\Google_Trendyol_Morhipo_Pages.class
 stepDefinitions\TutorialsNinjaStepDefinitions.class
+stepDefinitions\BlueRentalCarStepDefinitions.class

@@ -5,4 +5,5 @@
     Then kullanici automationexercise ana sayfasinda oldugunu dogrular
     And kullanici automationexercise test case butonuna basar
     Then sayfanin ekran goruntusunu alir
+    And sayfayi kapatir
 

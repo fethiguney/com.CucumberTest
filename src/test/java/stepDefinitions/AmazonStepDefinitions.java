@@ -78,5 +78,10 @@ public class AmazonStepDefinitions {
         }
     }
 
+    @And("kullanici urlin {string} icerdigini test eder")
+    public void kullaniciUrlinIcerdiginiTestEder(String kelimeUrl) {
+        String actualUrl=Driver.getDriver().getCurrentUrl();
+        Assert.assertTrue(actualUrl.contains(kelimeUrl));
+    }
 }
 
