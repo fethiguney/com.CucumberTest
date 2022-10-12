@@ -15,3 +15,18 @@
       Then  kullanici gecersiz bilgiler ile blueRentalCar sayfasina giris yapilmadigini kontrol eder
       Then sayfayi kapatir
 
+      @amazon
+    Scenario: TC03 amazon test
+    Given kullanici amazon sayfasina gider
+    Then amazonda sign in butonuna tiklar
+    Then faker kullanarak e-posta gonderir
+    And gonderdigi e-postanın ekran goruntusunu alir
+    Then amazonda continiue tiklar
+    Then There was a problem mesajini dogrular
+    And amazonda Need help e tiklar
+    And amazonda forgot your password e tiklar
+    Then Password assistance metnini dogrular
+    Then Geri gider
+    Then amazonda Create your account butonuna tiklar
+    Then Create account metnini dogrular
+    And sayfayi kapatir
