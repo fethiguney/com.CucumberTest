@@ -1,0 +1,174 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Tum senaryolar icin baslangic adimi buradan baslar",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11776800300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-13T20:01:05.372Z",
+        "line": 8,
+        "name": "TC01 Kullanici amazonda nutella aratir",
+        "description": "",
+        "id": "us001-background-kullanimi;tc01-kullanici-amazonda-nutella-aratir",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4685639400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "kullanici nutella icin arama yapar",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.kullaniciNutellaIcinAramaYapar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 748053400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sonuclarin nutella icerdigini test eder",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.sonuclarinNutellaIcerdiginiTestEder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456229000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@background"
+          },
+          {
+            "name": "@amazonSearch"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Tum senaryolar icin baslangic adimi buradan baslar",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4649498500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "kullanici amazon sayfasina gider",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.kullaniciAmazonSayfasinaGider()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-13T20:01:23.312Z",
+        "line": 20,
+        "name": "TC03 kullanici amazonda iphone aratir",
+        "description": "",
+        "id": "us001-background-kullanimi;tc03-kullanici-amazonda-iphone-aratir",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4913248300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "kullanici iphone aratir",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.kullaniciIphoneAratir()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 78945900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "sonuclarin iphone icerdigini test eder",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.sonuclarinIphoneIcerdiginiTestEder()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 230856900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepDefinitions.AmazonStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@background"
+          },
+          {
+            "name": "@amazonSearch"
+          }
+        ]
+      }
+    ],
+    "name": "US001 Background Kullanimi",
+    "description": "",
+    "id": "us001-background-kullanimi",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US001_backgroundKullanımı.feature",
+    "tags": [
+      {
+        "name": "@background",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

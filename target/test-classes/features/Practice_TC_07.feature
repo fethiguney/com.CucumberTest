@@ -14,3 +14,7 @@
     Then Down yazisindaki iki basamakli sayilarin hepsini toplayin
     And Tum click metinlerinin uzunlugunun toplamini onceki toplamdan cikarin
     Then sonucun 1100 oldugunu dogrulayin
+
+  Scenario: Kullanici sutun basligi ile tum sutunu yazdirir
+    Given kullanici "guruUrl" sayfasina gider
+    And "Company" sutununda tum degerleri yazdirir
