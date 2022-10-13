@@ -6,15 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
 public class FaceBookPage {
-
     public FaceBookPage(){
+
         PageFactory.initElements(Driver.getDriver(), this);
     }
-
-
-
     @FindBy (xpath = "//button[@value='1']")
-    public WebElement girisbutonu;
+    public WebElement login;
 
     @FindBy (xpath = "//input[@id='email']")
     public WebElement email;
@@ -23,6 +20,6 @@ public class FaceBookPage {
     public WebElement password;
 
     @FindBy (xpath = "//div[text()='Girdiğin e-posta bir hesaba bağlı değil. ']")
-    public WebElement uyarıMesaji;
+    public WebElement alertMessage;
 
 }

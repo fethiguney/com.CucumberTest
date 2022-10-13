@@ -57,10 +57,7 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(amazonPage.aramaSonucuElementi.getText().contains("iphone"));
     }
 
-    @Given("kullanici {string} sayfasina gider")
-    public void kullaniciSayfasinaGider(String url) {
-        Driver.getDriver().get(ConfigReader.getProperty(url));
-    }
+
 
     @And("kullanici amazonda {string} icin arama yapar")
     public void kullaniciAmazondaIcinAramaYapar(String kelime) {

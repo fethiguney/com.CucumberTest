@@ -33,5 +33,8 @@ Feature: US007 Scenario outline kullanımı
       | Akin       | Alkan     | Dev      | Amazon   | Senior    | 2018-10-20  | 50000  |
       | Orhan      | Duman     | PO       | WallMart | Senior    | 2019-12-10  | 30000  |
 
-    When kullanici datatables sayfasinda isim "Ahmet" ile arama yapar
-    Then isim bolumunde "Ahmet" oldugunu dogrular
+    Scenario: Facebook Login
+      Given user navigate to "facebookUrl"
+      Then user enter email "facebookEmail"
+      Then user enter password "facebookPassword"
+      And user click login button

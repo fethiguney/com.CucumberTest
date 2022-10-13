@@ -6,6 +6,7 @@ utilities\ReusableMethods.class
 stepDefinitions\AutomationExerciseStepDefinitions.class
 runners\Runner.class
 stepDefinitions\EditorTableStepDefinitons.class
+stepDefinitions\FacebookStepDefiniton.class
 pages\Google_Trendyol_Morhipo_Pages.class
 stepDefinitions\TutorialsNinjaStepDefinitions.class
 stepDefinitions\BlueRentalCarStepDefinitions.class
