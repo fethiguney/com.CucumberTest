@@ -22,6 +22,18 @@ public class WebUniversityPage {
    @FindBy (xpath = "//i[@class='fa fa-trash']")
     public List<WebElement> toDoListErase;
 
+   @FindBy (xpath = "//h1[text()='LOGIN PORTAL']")
+    public WebElement loginPortal;
+
+   @FindBy (xpath = "//*[@id='text']")
+    public WebElement usarname;
+
+   @FindBy (xpath = "//*[@id='password']")
+    public WebElement password;
+
+   @FindBy (xpath = "//*[@id='login-button']")
+    public WebElement loginClick;
+
 
 
 }
