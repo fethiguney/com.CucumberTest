@@ -17,5 +17,5 @@
       Scenario: Amazon Url
         Given kullanici "amazonUrl" sayfasina gider
         Then kullanici 1 saniye bekler
-        And sayfa url "amazon" icerdigini test eder
+        And sayfa url "kamazon" icerdigini test eder
         Then sayfayi kapatir
