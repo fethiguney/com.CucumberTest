@@ -1,3 +1,4 @@
+stepDefinitions\AutomationPracticeStepDefinitions.class
 runners\TestRun2.class
 pages\TutorialNinjaPage.class
 stepDefinitions\AmazonStepDefinitions.class
@@ -31,3 +32,4 @@ pages\PracticeTestPage.class
 utilities\ConfigReader.class
 stepDefinitions\BlueRentalCarStepDefinitions.class
 stepDefinitions\GuruStepDefinition.class
+pages\AutomationPracticePage.class
