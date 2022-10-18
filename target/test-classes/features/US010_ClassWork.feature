@@ -4,5 +4,6 @@ Feature: US010 Kullanici giris testi
     And automationpractice sayfasinda sign in linkine tiklar
     And automationpractice sayfasinda Create and account bölümüne email adresi girer
     And automationpractice sayfasinda Create an Account butonuna basar
-    And automationpractice sayfasinda kisisel bilgilerini ve iletisim bilgilerini girer  And user Register butonuna basar
+    And automationpractice sayfasinda kisisel bilgilerini ve iletisim bilgilerini girer
+    And automationpractice sayfasinda Register butonuna basar
     Then automationpractice sayfasinda hesap olustugunu dogrulayin

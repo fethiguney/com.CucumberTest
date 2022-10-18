@@ -18,3 +18,17 @@
   Scenario: Kullanici sutun basligi ile tum sutunu yazdirir
     Given kullanici "guruUrl" sayfasina gider
     And "Company" sutununda tum degerleri yazdirir
+
+  Scenario Outline: Practice Form doldurma
+    Given kullanici url ile "https://testpages.herokuapp.com/styled/basic-html-form-test.html" sayfasina gider
+    And   username "<kullanici adi>" password "<sifre>" ve textarea "<metin alani>" kisimlarini doldurur
+    And   bir dosya yukler
+    Then  checkbox1 i secer
+    And   radio2 yi secer
+    Then  selection item3 secer
+    And   dropdown itmem4 secer
+    And   submite tiklar
+    Then  dosyanin yuklendigini dogrular
+    Examples:
+      | kullanici adi | sifre | metin alani |
+      | kullanici adi | sifre | metin alani |
