@@ -57,6 +57,7 @@ public class TestPagesFormStepDefinitions {
     public void dropdownItmemSecer(int arg0) {
         Select select=new Select(testPageFormPage.dropDownMenu);
         select.selectByValue("dd3");
+
     }
 
     @And("submite tiklar")
