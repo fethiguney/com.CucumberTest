@@ -1,4 +1,3 @@
-runners\TestRun2.class
 pages\TutorialNinjaPage.class
 stepDefinitions\AmazonStepDefinitions.class
 stepDefinitions\GoogleTrendyoMorhipo.class
@@ -6,6 +5,7 @@ stepDefinitions\MedunnaStepDefinitions.class
 pages\AutomationExercisePage.class
 pages\BlueRentalCarPage.class
 stepDefinitions\WebDriverPageStepDefinitons.class
+stepDefinitions\GridStepDefinition.class
 pages\HotelMyCampPage.class
 stepDefinitions\PracticeTestPageDefinitions.class
 pages\AmazonPage.class
@@ -17,6 +17,7 @@ stepDefinitions\FacebookStepDefiniton.class
 pages\HepsiburadaPage.class
 stepDefinitions\Hooks.class
 pages\PracticeTestPage.class
+runners\GridRunner.class
 stepDefinitions\BlueRentalCarStepDefinitions.class
 stepDefinitions\AutomationPracticeStepDefinitions.class
 utilities\ReusableMethods$1.class
@@ -24,7 +25,6 @@ pages\GuruPage.class
 pages\FaceBookPage.class
 pages\MedunnaPages.class
 pages\EditorDataTablesPage.class
-runners\TestRun.class
 utilities\ReusableMethods.class
 pages\YouTubePage.class
 stepDefinitions\AutomationExerciseStepDefinitions.class
